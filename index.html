@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pondok Pesantren Dalilul Khoirot</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome untuk Ikon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="font-sans antialiased text-gray-800 bg-slate-50">
+
+    <!-- NAVIGATION BAR -->
+    <nav class="bg-emerald-800 text-white sticky top-0 z-50 shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <!-- Logo & Name -->
+                <div class="flex items-center space-x-3">
+                    <img src="logo.png" alt="Logo Ponpes Dalilul Khoirot" class="h-12 w-auto object-contain">
+                    <div>
+                        <span class="font-bold text-xl block leading-tight">Ponpes Dalilul Khoirot</span>
+                        <span class="text-xs text-emerald-200">Mencetak Generasi Qur'ani</span>
+                    </div>
+                </div>
+
+                <!-- Navigation Links -->
+                <div class="hidden md:flex space-x-8 text-sm font-medium">
+                    <a href="#beranda" class="hover:text-emerald-200 transition">Beranda</a>
+                    <a href="#profil" class="hover:text-emerald-200 transition">Profil & Visi</a>
+                    <a href="#program" class="hover:text-emerald-200 transition">Program Pendidikan</a>
+                    <a href="#galeri" class="hover:text-emerald-200 transition">Galeri</a>
+                    <a href="#kontak" class="hover:text-emerald-200 transition">Kontak</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <!-- LANGKAH 1: Hapus 'bg-emerald-900' dan tambahkan kelas kontrol gambar serta atribut style -->
+<section id="beranda" 
+         class="relative bg-cover bg-center bg-no-repeat text-white py-24 px-4 text-center"
+         style="background-image: url('wong\ edan.jpeg');">
+    
+    <!-- LANGKAH 2: Tambahkan overlay gelap agar teks putih tetap kontras dan mudah dibaca -->
+    <div class="absolute inset-0 bg-emerald-950/75 pointer-events-none"></div>
+    
+    <!-- LANGKAH 3: Tambahkan kelas 'relative z-10' pada div ini agar teks muncul di atas overlay -->
+    <div class="max-w-4xl mx-auto relative z-10">
+        <span class="bg-emerald-700/60 text-emerald-200 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider">Pon-Pes Dalilul Khoirot</span>
+        <h1 class="text-4xl md:text-5xl font-extrabold mt-4 mb-6 leading-tight">
+            Mendidik dengan Hati, Membentuk Akhlakul Karimah
+        </h1>
+        <p class="text-lg md:text-xl text-emerald-100 max-w-2xl mx-auto mb-8">
+            Selamat datang di website resmi Pondok Pesantren Dalilul Khoirot. Tempat santri menimba ilmu syar'i, memperdalam Al-Qur'an, dan membangun kemandirian.
+        </p>
+        <div class="flex justify-center gap-4">
+            <a href="#profil" class="bg-amber-500 hover:bg-amber-600 text-emerald-950 font-semibold px-6 py-3 rounded-lg shadow-lg transition">
+                Jelajahi Profil
+            </a>
+            <a href="#kontak" class="bg-emerald-700 hover:bg-emerald-600 text-white font-semibold px-6 py-3 rounded-lg border border-emerald-500 transition">
+                Hubungi Kami
+            </a>
+        </div>
+    </div>
+</section>
+
+    <!-- PROFIL & VISI MISI -->
+    <section id="profil" class="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-emerald-900">Profil Pesantren</h2>
+            <div class="w-16 h-1 bg-amber-500 mx-auto mt-2"></div>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div class="space-y-4">
+                <h3 class="text-2xl font-bold text-gray-800">Tentang Pon-Pes Dalilul Khoirot</h3>
+                <p class="text-gray-600 leading-relaxed">
+                    SEJARAH DAN PERKEMBANGAN PONDOK PESANTREN DALILUL KHOIROT Perjalanan Pondok Pesantren ini bermula dari kepedulian dan niat tulus untuk membumikan Al-Qur'an di lingkungan sekitar. Sebelum resmi berdiri sebagai pesantren, kegiatan pembelajaran Al-Qur'an dilakukan secara sederhana di rumah pribadi pengasuh. Pada masa-masa awal tersebut, majlis ini hanya diikuti oleh beberapa warga dan anak-anak dari lingkungan terdekat yang datang saban sore atau malam hari untuk belajar membaca Al-Qur'an, tajwid, serta dasar-dasar agama. Meski dengan fasilitas dan sarana yang terbatas, suasana kekeluargaan dan semangat menuntut ilmu menjadi fondasi utama yang menjaga keberlangsungan pengajian rutin ini. Seiring berjalannya waktu, kepercayaan masyarakat terhadap majlis pengajian ini semakin meningkat. Antusiasme warga yang ingin menitipkan putra-putrinya untuk memperdalam ilmu Al-Qur'an tidak lagi hanya datang dari lingkungan sekitar, tetapi juga mulai menjangkau wilayah di luarnya. Kapasitas rumah pribadi yang kian terbatas serta kebutuhan akan kurikulum pembelajaran yang lebih terstruktur mendorong pengasuh untuk mengambil langkah besar. Tepat pada tahun 2015, lembaga ini secara resmi ditransformasikan dan didirikan menjadi sebuah Pondok Pesantren. Langkah ini menandai peralihan dari pengajian berbasis rumah tangga menjadi lembaga pendidikan Islam formal yang memiliki tata kelola, kurikulum, serta sarana yang lebih memadai. Sejak resmi berdiri pada tahun 2015, pesantren terus bertransformasi dan membenahi diri. Program-program pembelajaran yang semula berfokus pada baca-tulis Al-Qur'an berkembang menjadi program yang lebih komprehensif, mencakup Tahsin, Tahfizh, pendalaman kajian keislaman (kitab kuning), hingga pembinaan karakter santri. Dari yang berawal dari beberapa santri warga sekitar di teras rumah, kini pondok pesantren telah berkembang menjadi wadah pembinaan generasi muda yang tidak hanya mampu membaca Al-Qur'an dengan baik, tetapi juga menanamkan nilai-nilai Al-Qur'an dalam kehidupan sehari-hari demi memberikan kemanfaatan yang lebih luas bagi masyarakat dan agama.
+
+Dengan memadukan kurikulum salafiyah (kitab kuning) dan pendidikan modern, kami memastikan setiap santri mendapatkan keseimbangan antara spiritualitas dan keahlian zaman.
+                <p class="text-gray-600 leading-relaxed">
+                    Dengan memadukan kurikulum salafiyah (kitab kuning) dan pendidikan modern, kami memastikan setiap santri mendapatkan keseimbangan antara spiritualitas dan keahlian zaman.
+                </p>
+            </div>
+
+            <!-- Visi Misi Box -->
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
+                <div class="mb-6">
+                    <h4 class="text-xl font-bold text-emerald-800 flex items-center gap-2">
+                        <i class="fa-solid fa-eye text-amber-500"></i> Visi
+                    </h4>
+                    <p class="text-gray-600 mt-2">
+                         "Menjadi lembaga pendidikan Islam unggulan yang melahirkan generasi Qur'ani, berakhlak mulia, berwawasan luas, serta mampu menjadi pelopor dan penunjuk jalan kebaikan (Dalilul Khoirot) bagi agama, bangsa, dan masyarakat.".
+                    </p>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold text-emerald-800 flex items-center gap-2">
+                        <i class="fa-solid fa-bullseye text-amber-500"></i> Misi
+                    </h4>
+                    <ul class="list-disc list-inside text-gray-600 mt-2 space-y-1">
+                        <li>Menyelenggarakan pembelajaran Al-Qur'an dan Sunnah.</li>
+                        <li>Mengkaji kitab-kitab klasik karya para ulama terkemuka.</li>
+                        <li>Menyelenggarakan pembelajaran Al-Qur'an (Tahsin dan Tahfizh) yang berkualitas, terstruktur, dan bersanad</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROGRAM PENDIDIKAN -->
+    <section id="program" class="py-16 bg-emerald-50/50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-emerald-900">Program Pendidikan</h2>
+                <div class="w-16 h-1 bg-amber-500 mx-auto mt-2"></div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100 text-center">
+                    <div class="w-14 h-14 bg-emerald-100 text-emerald-800 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl">
+                        <i class="fa-solid fa-book-quran"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Tahfidzul Qur'an</h3>
+                    <p class="text-gray-600 text-sm">
+                        Program bimbingan hafalan Al-Qur'an 30 Juz secara terstruktur dengan tajwid dan tahsin yang baku.
+                    </p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100 text-center">
+                    <div class="w-14 h-14 bg-emerald-100 text-emerald-800 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl">
+                        <i class="fa-solid fa-book-open text-emerald-800"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Kajian Kitab Kuning</h3>
+                    <p class="text-gray-600 text-sm">
+                        Pendalaman literatur Islam klasik mencakup Nahwu, Shorof, Fiqih, Aqidah, dan Hadits.
+                    </p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100 text-center">
+                    <div class="w-14 h-14 bg-emerald-100 text-emerald-800 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl">
+                        <img src="logo.png" alt="Logo Ponpes Al-Hikmah" class="h-12 w-auto object-contain">
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Madrasah Non Formal</h3>
+                    <p class="text-gray-600 text-sm">
+                        Pendidikan untuk pemula ilmu sholat dan al-qur'a (iqro).
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALERI FOTO (INTERAKTIF) -->
+    <section id="galeri" class="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-emerald-900">Galeri Kegiatan</h2>
+            <div class="w-16 h-1 bg-amber-500 mx-auto mt-2 mb-4"></div>
+            <p class="text-gray-600 max-w-xl mx-auto">Klik salah satu foto di bawah ini untuk melihat tampilan penuh.</p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            <!-- Foto 1 -->
+            <div class="gallery-item group relative overflow-hidden rounded-xl shadow-md cursor-pointer bg-slate-200"
+                 data-src="s1.jpeg"
+                 
+                 data-caption="Pimpinan Pon-Pes">
+                <img src="s1.jpeg" alt="Pimpinan pon-pes" class="w-full h-64 object-cover group-hover:scale-110 transition duration-300 pointer-events-none">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center pointer-events-none">
+                    <i class="fa-solid fa-magnifying-glass-plus text-white text-3xl"></i>
+                </div>
+                <div class="absolute bottom-0 inset-x-0 p-3 bg-gradient-to-t from-black/80 to-transparent text-white text-sm font-medium pointer-events-none">
+                    Pimpinan Pon-Pes
+                </div>
+            </div>
+
+            <!-- Foto 2 -->
+            <div class="gallery-item group relative overflow-hidden rounded-xl shadow-md cursor-pointer bg-slate-200"
+                 data-src="s5.jpeg"
+                 data-caption="putra-putri pimpinan pon-pes">
+                <img src="s5.jpeg" alt="putra-putri pimpinan Pon-Pes" class="w-full h-64 object-cover group-hover:scale-110 transition duration-300 pointer-events-none">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center pointer-events-none">
+                    <i class="fa-solid fa-magnifying-glass-plus text-white text-3xl"></i>
+                </div>
+                <div class="absolute bottom-0 inset-x-0 p-3 bg-gradient-to-t from-black/80 to-transparent text-white text-sm font-medium pointer-events-none">
+                    Putra-Putri Pimpinan Pon--Pes
+                </div>
+            </div>
+
+            <!-- Foto 3 -->
+            <div class="gallery-item group relative overflow-hidden rounded-xl shadow-md cursor-pointer bg-slate-200"
+                 data-src="s9.jpeg"
+                 data-caption="santri putra">
+                <img src="s9.jpeg" alt="Santri putra" class="w-full h-64 object-cover group-hover:scale-110 transition duration-300 pointer-events-none">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center pointer-events-none">
+                    <i class="fa-solid fa-magnifying-glass-plus text-white text-3xl"></i>
+                </div>
+                <div class="absolute bottom-0 inset-x-0 p-3 bg-gradient-to-t from-black/80 to-transparent text-white text-sm font-medium pointer-events-none">
+                    Santri Putra
+                </div>
+            </div>
+
+            <!-- Foto 4 -->
+            <div class="gallery-item group relative overflow-hidden rounded-xl shadow-md cursor-pointer bg-slate-200"
+                 data-src="s8.jpeg"
+                 data-caption="Santri Putri">
+                <img src="s8.jpeg" alt="Santri Putri" class="w-full h-64 object-cover group-hover:scale-110 transition duration-300 pointer-events-none">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center pointer-events-none">
+                    <i class="fa-solid fa-magnifying-glass-plus text-white text-3xl"></i>
+                </div>
+                <div class="absolute bottom-0 inset-x-0 p-3 bg-gradient-to-t from-black/80 to-transparent text-white text-sm font-medium pointer-events-none">
+                    Santri Putri
+                </div>
+            </div>
+
+            <!-- Foto 5 -->
+            <div class="gallery-item group relative overflow-hidden rounded-xl shadow-md cursor-pointer bg-slate-200"
+                 data-src="s1.jpeg"
+                 data-caption="kegiatan">
+                <img src="s1.jpeg" alt="Kegiatan" class="w-full h-64 object-cover group-hover:scale-110 transition duration-300 pointer-events-none">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center pointer-events-none">
+                    <i class="fa-solid fa-magnifying-glass-plus text-white text-3xl"></i>
+                </div>
+                <div class="absolute bottom-0 inset-x-0 p-3 bg-gradient-to-t from-black/80 to-transparent text-white text-sm font-medium pointer-events-none">
+                    kegiatan
+                </div>
+            </div>
+
+            <!-- Foto 6 -->
+            <div class="gallery-item group relative overflow-hidden rounded-xl shadow-md cursor-pointer bg-slate-200"
+                 data-src="s9.jpeg"
+                 data-caption="Kegiatan Ekstrakurikuler & Kebersamaan">
+                <img src="s9.jpeg" alt="setoran hafalan al-qur'an" class="w-full h-64 object-cover group-hover:scale-110 transition duration-300 pointer-events-none">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center pointer-events-none">
+                    <i class="fa-solid fa-magnifying-glass-plus text-white text-3xl"></i>
+                </div>
+                <div class="absolute bottom-0 inset-x-0 p-3 bg-gradient-to-t from-black/80 to-transparent text-white text-sm font-medium pointer-events-none">
+                    Setoran Hafalan Al-Qur'an
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MODAL POP-UP (LIGHTBOX) -->
+    <div id="imageModal" class="fixed inset-0 z-50 hidden bg-black/90 backdrop-blur-md flex items-center justify-center p-4">
+        <!-- Close Button -->
+        <button id="closeBtn" class="absolute top-6 right-6 text-white hover:text-amber-400 text-4xl font-bold transition z-50 p-2">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+
+        <!-- Image & Caption Container -->
+        <div class="max-w-5xl w-full text-center space-y-4">
+            <img id="modalImage" src="" alt="Detail Gambar" class="max-h-[80vh] mx-auto rounded-lg shadow-2xl object-contain">
+            <p id="modalCaption" class="text-white text-lg font-medium tracking-wide"></p>
+        </div>
+    </div>
+
+    <!-- KONTAK & LOKASI -->
+    <section id="kontak" class="py-16 bg-slate-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12">
+                <div>
+                    <h2 class="text-3xl font-bold mb-4">Informasi & Alamat</h2>
+                    <p class="text-slate-400 mb-6">
+                        Silakan hubungi kami untuk informasi lebih lanjut mengenai kegiatan pesantren, kajian umum, atau silaturahmi.
+                    </p>
+                    <div class="space-y-4">
+                        <div class="flex items-start gap-4">
+                            <i class="fa-solid fa-location-dot text-amber-500 text-xl mt-1"></i>
+                            <p class="text-slate-300">Kp.Kamasan Kebagusan Ds.Margasana Kec.Kramat Watu Kab.Serang Prov.Banten</p>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <i class="fa-solid fa-phone text-amber-500 text-xl"></i>
+                            <p class="text-slate-300">+62 87744545604</p>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <i class="fa-solid fa-envelope text-amber-500 text-xl"></i>
+                            <p class="text-slate-300">Aofa712@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-slate-800 p-6 rounded-xl border border-slate-700">
+                    <h3 class="text-xl font-bold mb-4">Kirim Pesan</h3>
+                    <form class="space-y-4">
+                        <div>
+                            <label class="block text-xs uppercase text-slate-400 mb-1">Nama Lengkap</label>
+                            <input type="text" class="w-full bg-slate-700 border border-slate-600 rounded px-3 py-2 text-white focus:outline-none focus:border-emerald-500" placeholder="Masukkan nama Anda">
+                        </div>
+                        <div>
+                            <label class="block text-xs uppercase text-slate-400 mb-1">Pesan / Pertanyaan</label>
+                            <textarea rows="3" class="w-full bg-slate-700 border border-slate-600 rounded px-3 py-2 text-white focus:outline-none focus:border-emerald-500" placeholder="Tuliskan pesan Anda"></textarea>
+                        </div>
+                        <button type="button" class="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-semibold py-2 rounded transition">
+                            Kirim Pesan 
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-950 text-slate-500 py-6 text-center text-sm">
+        <p>&copy; 2026 Pondok Pesantren Dalilul Khoirot. Seluruh Hak Cipta Dilindungi.</p>
+    </footer>
+
+    <!-- JAVASCRIPT EVENT LISTENERS -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const modal = document.getElementById('imageModal');
+            const modalImg = document.getElementById('modalImage');
+            const modalCaption = document.getElementById('modalCaption');
+            const closeBtn = document.getElementById('closeBtn');
+            const galleryItems = document.querySelectorAll('.gallery-item');
+
+            // Buka Modal saat gambar diklik
+            galleryItems.forEach(item => {
+                item.addEventListener('click', function() {
+                    const imgSrc = this.getAttribute('data-src');
+                    const caption = this.getAttribute('data-caption');
+                    modalImg.src = imgSrc;
+                    modalCaption.textContent = caption;
+                    modal.classList.remove('hidden');
+                    document.body.style.overflow = 'hidden'; // Stop scroll latar belakang
+                });
+            });
+
+            // Fungsi Tutup Modal
+            function closeModal() {
+                modal.classList.add('hidden');
+                document.body.style.overflow = 'auto'; // Re-enable scroll
+            }
+
+            // Klik Tombol Close (X)
+            closeBtn.addEventListener('click', closeModal);
+
+            // Klik Area Luar Gambar untuk Menutup Modal
+            modal.addEventListener('click', function(e) {
+                if (e.target === modal || e.target === modalImg.parentElement) {
+                    closeModal();
+                }
+            });
+
+            // Tekan ESC pada keyboard untuk Menutup
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
+                    closeModal();
+                }
+            });
+        });
+    </script>
+</body>
+</html>
